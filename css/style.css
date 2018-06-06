@@ -1,0 +1,262 @@
+* {
+  margin : 0px;
+  padding: 0px;
+  }
+body {
+  font-family: Segoe UI Historic;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+#logo{
+  width: 33%;
+  padding-top: 50px;
+  float: left;
+}
+.section1 {
+  width : 100%;
+  height : 768px;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+0,7db9e8+43,7db9e8+56,207cca+100 */
+background: rgb(30,87,153); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(30,87,153,1) 0%, rgba(125,185,232,1) 43%, rgba(125,185,232,1) 56%, rgba(32,124,202,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(125,185,232,1) 43%,rgba(125,185,232,1) 56%,rgba(32,124,202,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, rgba(30,87,153,1) 0%,rgba(125,185,232,1) 43%,rgba(125,185,232,1) 56%,rgba(32,124,202,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#207cca',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.banner {
+  width: 1150px;
+  height: 170px;
+  margin: 0 auto;
+}
+address {
+  font-style: normal;
+}
+.addresstop {
+  float: right;
+  width: 200px;
+  margin-top: 80px;
+  margin-right: 100px;
+}
+.navigation {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+.navimage {
+  background-image: url(../images/nav.png);
+  background-repeat: no-repeat;
+  background-position : 11px 230px;
+}
+.navigation li {
+    padding-left: 75px;
+    padding-top: 90px;
+    font-size: 24px;
+    height:200px;
+}
+ul{
+  list-style: none;
+}
+.mainimagecontainer {
+  max-width: 1295px;
+  margin: 0 auto;
+  bottom: 465px;
+}
+.mainimage {
+  position: absolute;
+  top: 306px;
+  transform: translate(20px);
+}
+.welcome {
+  width: 100%;
+  height : 524px;
+  background-color: #96b41e;
+}
+.wel-heading{
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+.welcomecontent {
+  max-width: 1000px;
+  margin: 0 auto;
+  transform: translate(27px);
+}
+.welcometext {
+  margin-top: 190px;
+  float: left;
+  width: 512px;
+}
+.welcometext p {
+  padding-bottom: 25px;
+}
+.welcomeimages {
+  position: relative;
+  margin-top: 86px;
+  width : 30%;
+  height: 370px;
+  float: left;
+  margin-right: 10px;
+}
+.wel-img_01 {
+  position: absolute;
+  right : 115px;
+  top: 248px;
+}
+.wel-img_02 {
+  position: absolute;
+  left : 95px;
+  top : 70px;
+}
+.wel-img_03 {
+  position: absolute;
+  left : 245px;
+  top : 190px;
+}
+.wel-btn{
+  background-color: #ef3d3d;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+.redhead {
+  font-size: 34px;
+  padding-bottom: 8px;
+}
+.cen-act-events {
+  width: 100%;
+  background-color: #ef3d3d;
+  clear: both;
+}
+.cen-act-ev-content {
+  max-width: 1000px;
+  margin: 0px auto;
+}
+.cen-act-ev-content li {
+  width: 30%;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  display: inline-block;
+}
+.ourcentre {
+  padding-left: 65px;
+}
+.cen-act-ev-content p{
+  padding-bottom: 25px;
+}
+.activities{
+  width: 268px;
+  height : 410px;
+}
+.cen-btn{
+  background-color: #eb9e02;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+.act-btn{
+  background-color: #0ebddc;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+.event-btn{
+  background-color: #95b60f;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.innovative {
+  background-image: url(../images/innovative.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  clear: both;
+}
+.inn-container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.inn-head{
+  text-align: center;
+  font-size: 48px;
+  color: #043667;
+  margin-bottom: 10px;
+  line-height: 110%
+}
+.innovativetext{
+  color : #000000;
+  padding-bottom: 20px;
+}
+.innocativecontent {
+  margin: 0 auto;
+  width :45%;
+  padding-top: 40px;
+  text-align: center;
+  padding-right: 130px;
+  padding-bottom: 25px;
+}
+.in-btn{
+  background-color: #95b60f;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+.teaching {
+  width : 100%;
+  background-color: #f79d00;
+}
+
+.teacherscontent {
+  margin: 0 auto;
+  padding-top: 15px;
+  max-width: 1000px;
+}
+.teach-head {
+  font-size: 35px;
+  padding-bottom: 25px;
+}
+h4 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.teachers li{
+  display: inline-block;
+  width: 20%;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+footer {
+  background-color: #14bbdf;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.footercontent {
+  width: 890px;
+  margin: 0 auto;
+  transform: translate(26px);
+}
+.logofooter {
+  margin-left: 115px;
+  width: 260px;
+  height: 84px;
+  vertical-align: middle;
+}
+.contact{
+  display: inline;
+  margin-left: 30px;
+  font-size: 20px;
+}
+.socialmedia {
+  width: 155px;
+  float: right;
+  margin-right: 115px;
+  margin-top: 20px;
+}
+.copyright {
+  clear: both;
+  margin-left : 350px;
+}
